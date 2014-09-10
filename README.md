@@ -1,4 +1,4 @@
-apuntes
+Apuntes
 =======
 
 Apuntes del curso que voy tomando en markdown
