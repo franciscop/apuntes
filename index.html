@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apuntes</title>
+    <meta charset = "utf-8" />
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        width: 960px;
+        margin: 0 auto;
+        }
+      #text-input {
+        display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="preview"></div>
+    <script src = "umbrella.js"></script>
+    <script src = "markdown.js"></script>
+    <script>
+      
+      function Editor(input, preview) {
+        this.update = function () {
+          preview.innerHTML = markdown.toHTML(input);
+        };
+        this.update();
+      }
+      
+      ajax("2. Acciones.md", "", function(data){
+        console.log(data);
+        new Editor(data, node("#preview"));
+        });
+    </script>
+  </body>
+</html>
