@@ -54,11 +54,43 @@ TODO: GRÁFICO
 
 ### Acciones Permanentes
 
-Siempre actúan en el mismo punto con **magnitud aproximadamente constante**.
-
-Ejemplo:
+Siempre actúan en el mismo punto con **magnitud aproximadamente constante**. Ejemplos:
 - Peso propio de la estructura
 - Tensión de la sobrecarga
+
+### Acciones Variables
+
+Son aquellas cuya actuación sobre el edificio no es contínua. Ejemplos:
+
+- Lluvia
+- Viento
+
+### Acciones Accidentales
+
+Las que estadísticamente ocurren muy poco, pero que tienen una gran importancia en caso de ocurrir. Ejemplos:
+
+- Terremoto
+- Incendio
+
+### Otras clasificaciones
+
+| Tipo de clasificación     | Tipos           |
+|---------------------------|-----------------|
+| **Variación temporal**    | Permanentes     |
+|                           | Variables       |
+|                           | Accidentales    |
+| **Variación espacial**    | Fijas           |
+|                           | Libres          |
+| **Respuesta estructural** | Estáticas       |
+|                           | Dinámicas       |
+|                           | Cuasi-estáticas |
+| **Naturaleza**            | Físicas         |
+|                           | Químicas        |
+|                           | Biológicas      |
+|                           | Geométricas     |
+
+
+
 
 ## Valores de las acciones
 
@@ -66,4 +98,23 @@ Permanentes característico: $G_k$
 
 Variables:
   - Característico: $Q_k$
-  - Combinación 
+  - Combinación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
