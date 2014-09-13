@@ -91,14 +91,37 @@ Las que estadísticamente ocurren muy poco, pero que tienen una gran importancia
 
 
 
-
 ## Valores de las acciones
+
+Las acciones pueden adoptar diferentes valores dependiendo de la comprobación estructural. Hay que saber cómo combinarlas para poder realizar cálculos.
+
+El valor de cálculo $F_dj$ de una acción $A_j$ se obtiene de la multiplicación de su valor representativo y un coeficiente de seguridad $γ_d$:
+
+$$
+F_{dj} = γ_d \cdot Ψ_i \cdot F_k (A_j)
+$$
+
+- $F_{dj}$: Valor de cálculo de una acción
+- $γ_d$: Coeficiente de seguridad
+- $Ψ_i$: Coeficiente de combinación
+- $F_k (A_j)$: Valor representativo de la acción $A_j$
+
+
+
+***
+
+## FIN
 
 Permanentes característico: $G_k$
 
 Variables:
   - Característico: $Q_k$
   - Combinación
+
+
+
+
+
 
 
 
