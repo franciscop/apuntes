@@ -43,8 +43,15 @@ Es la persona que se encarga de estar siempre en la obra, encargándose de la ej
 
 
 
+## Características y criterios para la confección del presupuesto
 
+###Presupuesto
 
+> **Precio unitario**: estimación del coste por  unidad de la construcción
+
+Una vez se obtiene el presupuesto de ejecución, se le añade un presupuesto de gastos generales y otro de beneficio empresarial (suele ser del 6%).
+
+Con esto se obtiene el precio total de ejecución por contrata. Si le añadimos el I.V.A. (21% para obras industriales) se obtiene el Presupuesto Base de Licitación.
 
 
 

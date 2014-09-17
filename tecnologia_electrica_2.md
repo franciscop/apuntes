@@ -12,7 +12,7 @@
 
 ## Circuit breaker
 
-## Main arcing
+### Main arcing
 
 There's a mechanism to avoid the suffering of the main contacts from the arc. They stay together with the appropriate pressure to allow for independent closure while the transition is happening.
 
@@ -88,14 +88,18 @@ It's common to combine a fuse with a circuit breaker. While the later can also a
 
 There are three variables to consider:
 
-- **Operating time $t_F$**: the interval between the beginning of a current and the instant of final arc extintion.
+- **Operating time $t_F$**: interval between the beginning of a current and the instant of final arc extintion.
 
-- **Melting time $t_f**: 
+- **Melting time $t_f$**: interval between the beginning of the current and when the arc is initiated.
+
+- **Arcing time $t_a$**: interval of time between the beginning of the arc and the arc extintion.
 
 
+## Contactor
 
+A contactor is an electrically controlled switch used for switching a power circuit, similar to a relay except with higher current ratings. It is controlled by a circuit which has a much lower power level than the switched circuit.
 
-
+It doesn't provide any kind of protection.
 
 
 
